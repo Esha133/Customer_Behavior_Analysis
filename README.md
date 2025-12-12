@@ -4,12 +4,12 @@ Data analytics project showcasing customer behavior using python, mysql and powe
 This project analyzes the shopping behavior of 3,900 customers to uncover insights about spending patterns, product preferences, customer segments, and subscription behavior.
 The workflow includes Python-based EDA, data cleaning, SQL analysis, and building an interactive Power BI dashboard to present business insights.
 
-Dataset
+--- Dataset
 
 Rows: 3,900
 Columns: 18
 
-Key Features
+--- Key Features
 
 Customer Demographics: Age, Gender, Location, Subscription Status
 
@@ -19,7 +19,7 @@ Behavioral Attributes: Discount applied, Promo code usage, Shipping type, Previo
 
 Review Rating: Contains 37 missing values (handled during cleaning)
 
-Tools & Technologies
+--- Tools & Technologies
 
 Python → pandas, numpy, matplotlib/seaborn
 
@@ -32,7 +32,7 @@ Power BI → Dashboard & visualizations
 GitHub → Version control
 
  Steps Performed
-1. Data Loading & Initial Exploration (Python)
+--- 1. Data Loading & Initial Exploration (Python)
 
 Loaded dataset using pandas
 
@@ -40,7 +40,7 @@ Checked data structure with df.info() and summary statistics with df.describe()
 
 Identified missing values and inconsistencies
 
-2. Data Cleaning
+--- 2. Data Cleaning
 
 Filled missing review ratings using median rating per product category
 
@@ -54,14 +54,14 @@ age_group (binned ages)
 
 purchase_frequency_days
 
-3. SQL Analysis (MySQL)
+--- 3. SQL Analysis (MySQL)
 
 Imported the cleaned dataset into MySQL for structured analysis.
 Key queries performed:
 
 Revenue contribution by gender
 
-Top 5 products by average rating
+--- Top 5 products by average rating
 
 Comparison of standard vs. express shipping revenue
 
@@ -73,7 +73,7 @@ Product-wise discount dependency
 
 Repeat buyer patterns and subscription conversion
 
-4. Power BI Dashboard
+--- 4. Power BI Dashboard
 
 Built an interactive dashboard showcasing:
 
@@ -87,3 +87,16 @@ Top-rated and top-selling products
 
 Shipping type comparison
 The dashboard helps stakeholders make quick business decisions.
+
+--- Project Structure
+📦 customer-shopping-analysis
+│
+├── 📄 README.md
+├── 📄 requirements.txt
+├── 📄 customer_behavior_analysis.ipynb
+├── 📄 cleaned_customer_data.csv
+├── 📄 sql_queries.sql
+├── 📊 Customer_Behavior_Dashboard.pbix
+└── 📁 images/
+    └── dashboard_screenshots.png
+
