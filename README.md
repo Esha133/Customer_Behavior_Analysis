@@ -88,15 +88,5 @@ Top-rated and top-selling products
 Shipping type comparison
 The dashboard helps stakeholders make quick business decisions.
 
---- Project Structure
-📦 customer-shopping-analysis
-│
-├── 📄 README.md
-├── 📄 requirements.txt
-├── 📄 customer_behavior_analysis.ipynb
-├── 📄 cleaned_customer_data.csv
-├── 📄 sql_queries.sql
-├── 📊 Customer_Behavior_Dashboard.pbix
-└── 📁 images/
-    └── dashboard_screenshots.png
+
 
