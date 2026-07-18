@@ -1,4 +1,4 @@
-# Customer_Behavior_Analysis.
+# Customer_Behavior_Analysis
 Data analytics project showcasing customer behavior using python, mysql and power Bi
 
 This project analyzes the shopping behavior of 3,900 customers to uncover insights about spending patterns, product preferences, customer segments, and subscription behavior.
